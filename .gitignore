@@ -10,3 +10,4 @@ yarn-error.log
 config.json
 .tscache
 .next
+out

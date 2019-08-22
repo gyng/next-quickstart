@@ -14,7 +14,7 @@
   "scripts": {
     "d": "next",
     "build": "next build",
-    "build:static": "next export",
+    "export": "next export",
     "lint": "tslint -c tslint.json --project tsconfig.json",
     "start": "next start"
   },
