@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    steps:
+      - uses: nuxt/actions-yarn@master
+      - run: "install"
+      - run: "test"
