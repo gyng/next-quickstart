@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: nuxt/actions-yarn@master
-      - run: "install"
-      - run: "test"
+      - run: "yarn install"
+      - run: "yarn lint"
