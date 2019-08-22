@@ -1,7 +1,5 @@
 # www
 
-Company site.
-
 ## Usage
 
 ```
