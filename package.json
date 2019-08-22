@@ -1,0 +1,32 @@
+{
+  "name": "www",
+  "version": "0.0.1",
+  "description": "www.basis-ai.com",
+  "main": "index.js",
+  "repository": "git@github.com:basisai/www.git",
+  "author": "Basis AI Developers <developers@basis-ai.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "next": "^9.0.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "scripts": {
+    "d": "next",
+    "build": "next build",
+    "build:static": "next export",
+    "lint": "tslint -c tslint.json --project tsconfig.json",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.2",
+    "@types/react": "^16.9.2",
+    "prettier": "^1.18.2",
+    "tslint": "^5.19.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.3"
+  }
+}

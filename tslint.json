@@ -1,0 +1,34 @@
+{
+    "extends": [
+        "tslint:latest",
+        "tslint-react",
+        "tslint-eslint-rules",
+        "tslint-plugin-prettier",
+        "tslint-config-prettier"
+    ],
+    "rules": {
+        "jsx-boolean-value": false,
+        "jsx-no-lambda": false,
+        "no-implicit-dependencies": false,
+        "no-submodule-imports": false,
+        "no-var-requires": false,
+        "prettier": true,
+        "variable-name": [
+            true,
+            "allow-leading-underscore",
+            "allow-pascal-case",
+            "ban-keywords",
+            "check-format"
+        ],
+        "no-console": [
+            true,
+            "log"
+        ]
+    },
+    "linterOptions": {
+        "exclude": [
+            "*.json",
+            "**/*.json"
+        ]
+    }
+}
