@@ -1,7 +1,8 @@
 import App from "next/app";
 import Head from "next/head";
-import Link from "next/link";
 import React from "react";
+import { Header } from "../components/Header";
+import "../styles/normalize.css";
 
 class MyApp extends App {
   // Only uncomment this method if you have blocking data requirements for
@@ -35,10 +36,7 @@ class MyApp extends App {
             content="width=device-width,minimum-scale=1,initial-scale=1"
           />
         </Head>
-
-        <div>
-          Header! <Link href="/">Home</Link> <Link href="/team">Team</Link>
-        </div>
+        <Header />
         <Component {...pageProps} />
       </>
     );
