@@ -2,7 +2,10 @@ import Link from "next/link";
 import React from "react";
 
 export const Header = () => {
-  const links = [{ href: "/", title: "Home" }, { href: "team", title: "Team" }];
+  const links = [
+    { href: "/", title: "Home" },
+    { href: "team", title: "Team" }
+  ];
 
   return (
     <div>
