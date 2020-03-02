@@ -23,17 +23,29 @@ class MyApp extends App {
       <>
         <Head>
           <title>My page title</title>
-          <title>
-            Bedrock &ndash; Deploy production-ready ML pipelines and models
-          </title>
           <meta charSet="utf-8" />
-          <meta
-            name="description"
-            content="Bedrock &ndash; Deploy production-ready ML pipelines and models"
-          />
+          <meta name="description" content="Description" />
           <meta
             name="viewport"
             content="width=device-width,minimum-scale=1,initial-scale=1"
+          />
+          {/* <meta name="theme-color" content="" /> */}
+          {/* <link
+            rel="icon"
+            type="image/svg+xml"
+            href="/static/favicon/favicon.svg"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            href="/static/favicon/favicon.png"
+          />
+          <link rel="apple-touch-icon" href="/static/favicon/favicon.png" />
+          */}
+          <link
+            rel="icon"
+            type="image/x-icon"
+            href="/static/favicon/favicon.ico"
           />
         </Head>
         <Header />
